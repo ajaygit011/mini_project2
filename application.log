@@ -315,3 +315,39 @@
 2021-11-22 10:11:16,324 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
 2021-11-22 10:11:16,324 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
 2021-11-22 10:11:16,324 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ajay_bhave/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-11-22 20:04:47,933  INFO [main] IndexPageTest:34 - index page validation test case
+2021-11-22 20:04:52,876  INFO [main] IndexPageTest:41 - index page title validation 
+2021-11-22 20:04:57,950  INFO [main] IndexPageTest:49 - index page dropdown validation
+2021-11-22 20:05:03,516  INFO [main] IndexPageTest:57 - index page currency dropdown validation
+2021-11-22 20:05:09,062  INFO [main] IndexPageTest:65 - index page currency dropdown validation 
+2021-11-22 20:05:14,671  INFO [main] IndexPageTest:72 - index page navigation to login page validation
+2021-11-22 20:05:20,122  INFO [main] IndexPageTest:79 - search - bar validation 
+2021-11-22 20:05:26,646  INFO [main] ForgotPasswordTest:41 - title validation of ForgotPassword page
+2021-11-22 20:05:33,208  INFO [main] ForgotPasswordTest:49 - input box validation of Forgot Password page
+2021-11-22 20:05:39,586  INFO [main] ForgotPasswordTest:56 - submit button validation of Forgot Password page
+2021-11-22 20:05:46,675  INFO [main] ForgotPasswordTest:63 - back button validation
+2021-11-22 20:06:09,449  INFO [main] HomePageTest:47 - search box validation
+2021-11-22 20:06:17,873  INFO [main] HomePageTest:56 - addtocart validation
+2021-11-22 20:06:28,948  INFO [main] HomePageTest:75 - taking screen shot of searched item
+2021-11-22 20:06:37,400  INFO [main] HomePageTest:86 - mouse over opration validation
+2021-11-22 20:07:00,568  INFO [main] AddToCartTest:50 - test case to validate Title of Shopping Cart Page
+2021-11-22 20:07:10,900  INFO [main] AddToCartTest:58 - test case to validate continue button in cart page
+2021-11-22 20:07:22,137  INFO [main] AddToCartTest:67 - test case to check the item in cart
+2021-11-22 20:07:29,922  INFO [main] RegistrationPageTest:61 - Registration page title validation
+2021-11-22 20:07:36,855  INFO [main] RegistrationPageTest:49 - Registration page input fileds  validation
+2021-11-22 20:07:52,717  INFO [main] LogoutPageTest:45 - logout page title validation
+2021-11-22 20:08:00,609  INFO [main] LogoutPageTest:52 - validation of button on logout page
+2021-11-22 20:08:08,315  INFO [main] LogoutPageTest:59 - validation of action of logout button
+2021-11-22 20:08:16,092  INFO [main] WishListPageTest:44 - wish list page title validation
+2021-11-22 20:08:23,740  INFO [main] WishListPageTest:55 - wishlist content validation
+2021-11-22 20:08:31,537  INFO [main] WishListPageTest:64 - continue button validation
+2021-11-22 20:08:32,981 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-11-22 20:08:32,982 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-11-22 20:08:32,983 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-11-22 20:08:32,984 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-11-22 20:08:32,984 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ajay_bhave/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-11-22 20:08:33,200 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-11-22 20:08:33,200 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-11-22 20:08:33,200 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-11-22 20:08:33,201 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-11-22 20:08:33,201 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ajay_bhave/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

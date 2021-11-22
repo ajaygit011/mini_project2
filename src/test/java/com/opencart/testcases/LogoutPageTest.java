@@ -55,6 +55,7 @@ public class LogoutPageTest extends BaseClass {
 	@Test(priority=3)
 	public void continuebuttonclickTest()
 	{
+		Assert.assertTrue(logout.continuebuttonvalidation());
 		log.info("validation of action of logout button");
 	}
 	

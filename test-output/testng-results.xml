@@ -2,90 +2,90 @@
 <testng-results skipped="1" failed="1" ignored="0" total="31" passed="29">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSuite" duration-ms="210145" started-at="2021-11-22T10:07:45 IST" finished-at="2021-11-22T10:11:15 IST">
+  <suite name="TestSuite" duration-ms="233240" started-at="2021-11-22T20:04:39 IST" finished-at="2021-11-22T20:08:32 IST">
     <groups>
     </groups>
-    <test name="testSUite" duration-ms="210145" started-at="2021-11-22T10:07:45 IST" finished-at="2021-11-22T10:11:15 IST">
+    <test name="testSUite" duration-ms="233240" started-at="2021-11-22T20:04:39 IST" finished-at="2021-11-22T20:08:32 IST">
       <class name="com.opencart.testcases.AddToCartTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.opencart.testcases.AddToCartTest@49070868]" name="setUp" is-config="true" duration-ms="6908" started-at="2021-11-22T10:09:32 IST" finished-at="2021-11-22T10:09:39 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.opencart.testcases.AddToCartTest@49070868]" name="setUp" is-config="true" duration-ms="7847" started-at="2021-11-22T20:06:38 IST" finished-at="2021-11-22T20:06:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="endToEnd()[pri:0, instance:com.opencart.testcases.AddToCartTest@49070868]" name="endToEnd" duration-ms="3503" started-at="2021-11-22T10:09:39 IST" finished-at="2021-11-22T10:09:42 IST">
+        <test-method status="PASS" signature="endToEnd()[pri:0, instance:com.opencart.testcases.AddToCartTest@49070868]" name="endToEnd" duration-ms="3891" started-at="2021-11-22T20:06:46 IST" finished-at="2021-11-22T20:06:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endToEnd -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.AddToCartTest@49070868]" name="teardown" is-config="true" duration-ms="1214" started-at="2021-11-22T10:09:42 IST" finished-at="2021-11-22T10:09:43 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.AddToCartTest@49070868]" name="teardown" is-config="true" duration-ms="1352" started-at="2021-11-22T20:06:50 IST" finished-at="2021-11-22T20:06:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.opencart.testcases.AddToCartTest@49070868]" name="setUp" is-config="true" duration-ms="6595" started-at="2021-11-22T10:09:43 IST" finished-at="2021-11-22T10:09:50 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.opencart.testcases.AddToCartTest@49070868]" name="setUp" is-config="true" duration-ms="8893" started-at="2021-11-22T20:06:51 IST" finished-at="2021-11-22T20:07:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="CartPageTitle()[pri:1, instance:com.opencart.testcases.AddToCartTest@49070868]" name="CartPageTitle" duration-ms="6" started-at="2021-11-22T10:09:50 IST" finished-at="2021-11-22T10:09:50 IST">
+        <test-method status="PASS" signature="CartPageTitle()[pri:1, instance:com.opencart.testcases.AddToCartTest@49070868]" name="CartPageTitle" duration-ms="8" started-at="2021-11-22T20:07:00 IST" finished-at="2021-11-22T20:07:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CartPageTitle -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.AddToCartTest@49070868]" name="teardown" is-config="true" duration-ms="1146" started-at="2021-11-22T10:09:50 IST" finished-at="2021-11-22T10:09:51 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.AddToCartTest@49070868]" name="teardown" is-config="true" duration-ms="1320" started-at="2021-11-22T20:07:00 IST" finished-at="2021-11-22T20:07:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.opencart.testcases.AddToCartTest@49070868]" name="setUp" is-config="true" duration-ms="6790" started-at="2021-11-22T10:09:51 IST" finished-at="2021-11-22T10:09:58 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.opencart.testcases.AddToCartTest@49070868]" name="setUp" is-config="true" duration-ms="8962" started-at="2021-11-22T20:07:01 IST" finished-at="2021-11-22T20:07:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="continuebutton()[pri:2, instance:com.opencart.testcases.AddToCartTest@49070868]" name="continuebutton" duration-ms="33" started-at="2021-11-22T10:09:58 IST" finished-at="2021-11-22T10:09:58 IST">
+        <test-method status="PASS" signature="continuebutton()[pri:2, instance:com.opencart.testcases.AddToCartTest@49070868]" name="continuebutton" duration-ms="49" started-at="2021-11-22T20:07:10 IST" finished-at="2021-11-22T20:07:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- continuebutton -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.AddToCartTest@49070868]" name="teardown" is-config="true" duration-ms="1250" started-at="2021-11-22T10:09:58 IST" finished-at="2021-11-22T10:09:59 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.AddToCartTest@49070868]" name="teardown" is-config="true" duration-ms="1420" started-at="2021-11-22T20:07:10 IST" finished-at="2021-11-22T20:07:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.opencart.testcases.AddToCartTest@49070868]" name="setUp" is-config="true" duration-ms="6621" started-at="2021-11-22T10:09:59 IST" finished-at="2021-11-22T10:10:06 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.opencart.testcases.AddToCartTest@49070868]" name="setUp" is-config="true" duration-ms="9776" started-at="2021-11-22T20:07:12 IST" finished-at="2021-11-22T20:07:22 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="productInCart()[pri:3, instance:com.opencart.testcases.AddToCartTest@49070868]" name="productInCart" duration-ms="37" started-at="2021-11-22T10:10:06 IST" finished-at="2021-11-22T10:10:06 IST">
+        <test-method status="PASS" signature="productInCart()[pri:3, instance:com.opencart.testcases.AddToCartTest@49070868]" name="productInCart" duration-ms="40" started-at="2021-11-22T20:07:22 IST" finished-at="2021-11-22T20:07:22 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productInCart -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.AddToCartTest@49070868]" name="teardown" is-config="true" duration-ms="1204" started-at="2021-11-22T10:10:06 IST" finished-at="2021-11-22T10:10:07 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.AddToCartTest@49070868]" name="teardown" is-config="true" duration-ms="1406" started-at="2021-11-22T20:07:22 IST" finished-at="2021-11-22T20:07:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.opencart.testcases.AddToCartTest -->
       <class name="com.opencart.testcases.RegistrationPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.opencart.testcases.RegistrationPageTest@6385cb26]" name="setup" is-config="true" duration-ms="4791" started-at="2021-11-22T10:10:07 IST" finished-at="2021-11-22T10:10:12 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.opencart.testcases.RegistrationPageTest@6385cb26]" name="setup" is-config="true" duration-ms="6369" started-at="2021-11-22T20:07:23 IST" finished-at="2021-11-22T20:07:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validatePageTitle()[pri:1, instance:com.opencart.testcases.RegistrationPageTest@6385cb26]" name="validatePageTitle" duration-ms="7" started-at="2021-11-22T10:10:12 IST" finished-at="2021-11-22T10:10:12 IST">
+        <test-method status="PASS" signature="validatePageTitle()[pri:1, instance:com.opencart.testcases.RegistrationPageTest@6385cb26]" name="validatePageTitle" duration-ms="7" started-at="2021-11-22T20:07:29 IST" finished-at="2021-11-22T20:07:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePageTitle -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.RegistrationPageTest@6385cb26]" name="teardown" is-config="true" duration-ms="1264" started-at="2021-11-22T10:10:12 IST" finished-at="2021-11-22T10:10:13 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.RegistrationPageTest@6385cb26]" name="teardown" is-config="true" duration-ms="1529" started-at="2021-11-22T20:07:29 IST" finished-at="2021-11-22T20:07:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.opencart.testcases.RegistrationPageTest@6385cb26]" name="setup" is-config="true" duration-ms="5368" started-at="2021-11-22T10:10:13 IST" finished-at="2021-11-22T10:10:18 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.opencart.testcases.RegistrationPageTest@6385cb26]" name="setup" is-config="true" duration-ms="5209" started-at="2021-11-22T20:07:31 IST" finished-at="2021-11-22T20:07:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateinputfields()[pri:2, instance:com.opencart.testcases.RegistrationPageTest@6385cb26]" name="validateinputfields" duration-ms="153" started-at="2021-11-22T10:10:18 IST" finished-at="2021-11-22T10:10:19 IST">
+        <test-method status="PASS" signature="validateinputfields()[pri:2, instance:com.opencart.testcases.RegistrationPageTest@6385cb26]" name="validateinputfields" duration-ms="192" started-at="2021-11-22T20:07:36 IST" finished-at="2021-11-22T20:07:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateinputfields -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.RegistrationPageTest@6385cb26]" name="teardown" is-config="true" duration-ms="1165" started-at="2021-11-22T10:10:19 IST" finished-at="2021-11-22T10:10:20 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.RegistrationPageTest@6385cb26]" name="teardown" is-config="true" duration-ms="1321" started-at="2021-11-22T20:07:36 IST" finished-at="2021-11-22T20:07:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.opencart.testcases.RegistrationPageTest@6385cb26]" name="setup" is-config="true" duration-ms="4852" started-at="2021-11-22T10:10:20 IST" finished-at="2021-11-22T10:10:25 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.opencart.testcases.RegistrationPageTest@6385cb26]" name="setup" is-config="true" duration-ms="4863" started-at="2021-11-22T20:07:38 IST" finished-at="2021-11-22T20:07:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="registeruservalidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.opencart.testcases.RegistrationPageTest@6385cb26]" name="registeruservalidation" duration-ms="982" started-at="2021-11-22T10:10:25 IST" data-provider="data" finished-at="2021-11-22T10:10:26 IST">
+        <test-method status="PASS" signature="registeruservalidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.opencart.testcases.RegistrationPageTest@6385cb26]" name="registeruservalidation" duration-ms="941" started-at="2021-11-22T20:07:43 IST" data-provider="data" finished-at="2021-11-22T20:07:44 IST">
           <params>
             <param index="0">
               <value>
@@ -121,29 +121,79 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registeruservalidation -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.RegistrationPageTest@6385cb26]" name="teardown" is-config="true" duration-ms="1168" started-at="2021-11-22T10:10:26 IST" finished-at="2021-11-22T10:10:27 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.RegistrationPageTest@6385cb26]" name="teardown" is-config="true" duration-ms="1162" started-at="2021-11-22T20:07:44 IST" finished-at="2021-11-22T20:07:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.opencart.testcases.RegistrationPageTest -->
-      <class name="com.opencart.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.opencart.testcases.LoginPageTest@6e38921c]" name="setUp" is-config="true" duration-ms="4559" started-at="2021-11-22T10:08:47 IST" finished-at="2021-11-22T10:08:51 IST">
+      <class name="com.opencart.testcases.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.opencart.testcases.HomePageTest@27c6e487]" name="setup" is-config="true" duration-ms="6840" started-at="2021-11-22T20:06:02 IST" finished-at="2021-11-22T20:06:09 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTestTest()[pri:1, instance:com.opencart.testcases.LoginPageTest@6e38921c]" name="loginTestTest" duration-ms="1593" started-at="2021-11-22T10:08:51 IST" finished-at="2021-11-22T10:08:53 IST">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchfieldTest()[pri:1, instance:com.opencart.testcases.HomePageTest@27c6e487]" name="searchfieldTest" duration-ms="27" started-at="2021-11-22T20:06:09 IST" finished-at="2021-11-22T20:06:09 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTestTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.LoginPageTest@6e38921c]" name="teardown" is-config="true" duration-ms="1147" started-at="2021-11-22T10:08:53 IST" finished-at="2021-11-22T10:08:54 IST">
+        </test-method> <!-- searchfieldTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.HomePageTest@27c6e487]" name="teardown" is-config="true" duration-ms="1169" started-at="2021-11-22T20:06:09 IST" finished-at="2021-11-22T20:06:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.opencart.testcases.LoginPageTest@6e38921c]" name="setUp" is-config="true" duration-ms="4756" started-at="2021-11-22T10:08:54 IST" finished-at="2021-11-22T10:08:59 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.opencart.testcases.HomePageTest@27c6e487]" name="setup" is-config="true" duration-ms="7224" started-at="2021-11-22T20:06:10 IST" finished-at="2021-11-22T20:06:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addtocartvalidation()[pri:2, instance:com.opencart.testcases.HomePageTest@27c6e487]" name="addtocartvalidation" duration-ms="31" started-at="2021-11-22T20:06:17 IST" finished-at="2021-11-22T20:06:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocartvalidation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.HomePageTest@27c6e487]" name="teardown" is-config="true" duration-ms="1451" started-at="2021-11-22T20:06:17 IST" finished-at="2021-11-22T20:06:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.opencart.testcases.HomePageTest@27c6e487]" name="setup" is-config="true" duration-ms="7055" started-at="2021-11-22T20:06:19 IST" finished-at="2021-11-22T20:06:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchOpration()[pri:3, instance:com.opencart.testcases.HomePageTest@27c6e487]" name="searchOpration" duration-ms="2568" started-at="2021-11-22T20:06:26 IST" finished-at="2021-11-22T20:06:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchOpration -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.HomePageTest@27c6e487]" name="teardown" is-config="true" duration-ms="1259" started-at="2021-11-22T20:06:28 IST" finished-at="2021-11-22T20:06:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.opencart.testcases.HomePageTest@27c6e487]" name="setup" is-config="true" duration-ms="6808" started-at="2021-11-22T20:06:30 IST" finished-at="2021-11-22T20:06:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="mouseovervalidation()[pri:4, instance:com.opencart.testcases.HomePageTest@27c6e487]" name="mouseovervalidation" duration-ms="385" started-at="2021-11-22T20:06:37 IST" finished-at="2021-11-22T20:06:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mouseovervalidation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.HomePageTest@27c6e487]" name="teardown" is-config="true" duration-ms="1177" started-at="2021-11-22T20:06:37 IST" finished-at="2021-11-22T20:06:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.opencart.testcases.HomePageTest -->
+      <class name="com.opencart.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.opencart.testcases.LoginPageTest@6e38921c]" name="setUp" is-config="true" duration-ms="5106" started-at="2021-11-22T20:05:47 IST" finished-at="2021-11-22T20:05:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="linkTextValidationTest()[pri:2, instance:com.opencart.testcases.LoginPageTest@6e38921c]" name="linkTextValidationTest" duration-ms="29" started-at="2021-11-22T10:08:59 IST" finished-at="2021-11-22T10:08:59 IST">
+        <test-method status="PASS" signature="loginTestTest()[pri:1, instance:com.opencart.testcases.LoginPageTest@6e38921c]" name="loginTestTest" duration-ms="2042" started-at="2021-11-22T20:05:52 IST" finished-at="2021-11-22T20:05:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.LoginPageTest@6e38921c]" name="teardown" is-config="true" duration-ms="1158" started-at="2021-11-22T20:05:54 IST" finished-at="2021-11-22T20:05:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.opencart.testcases.LoginPageTest@6e38921c]" name="setUp" is-config="true" duration-ms="5216" started-at="2021-11-22T20:05:56 IST" finished-at="2021-11-22T20:06:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="linkTextValidationTest()[pri:2, instance:com.opencart.testcases.LoginPageTest@6e38921c]" name="linkTextValidationTest" duration-ms="31" started-at="2021-11-22T20:06:01 IST" finished-at="2021-11-22T20:06:01 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [] but found [Forgotten Password]]]>
@@ -191,11 +241,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- linkTextValidationTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.LoginPageTest@6e38921c]" name="teardown" is-config="true" duration-ms="1154" started-at="2021-11-22T10:08:59 IST" finished-at="2021-11-22T10:09:00 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.LoginPageTest@6e38921c]" name="teardown" is-config="true" duration-ms="1188" started-at="2021-11-22T20:06:01 IST" finished-at="2021-11-22T20:06:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="SKIP" signature="cssPropertyTestTest()[pri:3, instance:com.opencart.testcases.LoginPageTest@6e38921c]" name="cssPropertyTestTest" duration-ms="0" started-at="2021-11-22T10:09:00 IST" depends-on-methods="com.opencart.testcases.LoginPageTest.linkTextValidationTest" finished-at="2021-11-22T10:09:00 IST">
+        <test-method status="SKIP" signature="cssPropertyTestTest()[pri:3, instance:com.opencart.testcases.LoginPageTest@6e38921c]" name="cssPropertyTestTest" duration-ms="0" started-at="2021-11-22T20:06:02 IST" depends-on-methods="com.opencart.testcases.LoginPageTest.linkTextValidationTest" finished-at="2021-11-22T20:06:02 IST">
           <exception class="java.lang.Throwable">
             <message>
               <![CDATA[Method LoginPageTest.cssPropertyTestTest()[pri:3, instance:com.opencart.testcases.LoginPageTest@6e38921c] depends on not successfully finished methods]]>
@@ -228,264 +278,214 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- cssPropertyTestTest -->
       </class> <!-- com.opencart.testcases.LoginPageTest -->
-      <class name="com.opencart.testcases.HomePageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.opencart.testcases.HomePageTest@27c6e487]" name="setup" is-config="true" duration-ms="6103" started-at="2021-11-22T10:09:00 IST" finished-at="2021-11-22T10:09:06 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="searchfieldTest()[pri:1, instance:com.opencart.testcases.HomePageTest@27c6e487]" name="searchfieldTest" duration-ms="24" started-at="2021-11-22T10:09:06 IST" finished-at="2021-11-22T10:09:06 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchfieldTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.HomePageTest@27c6e487]" name="teardown" is-config="true" duration-ms="1147" started-at="2021-11-22T10:09:06 IST" finished-at="2021-11-22T10:09:07 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.opencart.testcases.HomePageTest@27c6e487]" name="setup" is-config="true" duration-ms="6326" started-at="2021-11-22T10:09:07 IST" finished-at="2021-11-22T10:09:14 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="addtocartvalidation()[pri:2, instance:com.opencart.testcases.HomePageTest@27c6e487]" name="addtocartvalidation" duration-ms="24" started-at="2021-11-22T10:09:14 IST" finished-at="2021-11-22T10:09:14 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addtocartvalidation -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.HomePageTest@27c6e487]" name="teardown" is-config="true" duration-ms="1161" started-at="2021-11-22T10:09:14 IST" finished-at="2021-11-22T10:09:15 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.opencart.testcases.HomePageTest@27c6e487]" name="setup" is-config="true" duration-ms="6091" started-at="2021-11-22T10:09:15 IST" finished-at="2021-11-22T10:09:21 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="searchOpration()[pri:3, instance:com.opencart.testcases.HomePageTest@27c6e487]" name="searchOpration" duration-ms="1875" started-at="2021-11-22T10:09:21 IST" finished-at="2021-11-22T10:09:23 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchOpration -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.HomePageTest@27c6e487]" name="teardown" is-config="true" duration-ms="1154" started-at="2021-11-22T10:09:23 IST" finished-at="2021-11-22T10:09:24 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.opencart.testcases.HomePageTest@27c6e487]" name="setup" is-config="true" duration-ms="5999" started-at="2021-11-22T10:09:24 IST" finished-at="2021-11-22T10:09:30 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="mouseovervalidation()[pri:4, instance:com.opencart.testcases.HomePageTest@27c6e487]" name="mouseovervalidation" duration-ms="431" started-at="2021-11-22T10:09:30 IST" finished-at="2021-11-22T10:09:31 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mouseovervalidation -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.HomePageTest@27c6e487]" name="teardown" is-config="true" duration-ms="1140" started-at="2021-11-22T10:09:31 IST" finished-at="2021-11-22T10:09:32 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.opencart.testcases.HomePageTest -->
       <class name="com.opencart.testcases.LogoutPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.opencart.testcases.LogoutPageTest@38364841]" name="setup" is-config="true" duration-ms="6708" started-at="2021-11-22T10:10:27 IST" finished-at="2021-11-22T10:10:34 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.opencart.testcases.LogoutPageTest@38364841]" name="setup" is-config="true" duration-ms="6821" started-at="2021-11-22T20:07:45 IST" finished-at="2021-11-22T20:07:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="titlevalidationTest()[pri:1, instance:com.opencart.testcases.LogoutPageTest@38364841]" name="titlevalidationTest" duration-ms="4" started-at="2021-11-22T10:10:34 IST" finished-at="2021-11-22T10:10:34 IST">
+        <test-method status="PASS" signature="titlevalidationTest()[pri:1, instance:com.opencart.testcases.LogoutPageTest@38364841]" name="titlevalidationTest" duration-ms="4" started-at="2021-11-22T20:07:52 IST" finished-at="2021-11-22T20:07:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titlevalidationTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.LogoutPageTest@38364841]" name="teardown" is-config="true" duration-ms="1164" started-at="2021-11-22T10:10:34 IST" finished-at="2021-11-22T10:10:35 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.LogoutPageTest@38364841]" name="teardown" is-config="true" duration-ms="1102" started-at="2021-11-22T20:07:52 IST" finished-at="2021-11-22T20:07:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.opencart.testcases.LogoutPageTest@38364841]" name="setup" is-config="true" duration-ms="7548" started-at="2021-11-22T10:10:35 IST" finished-at="2021-11-22T10:10:43 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.opencart.testcases.LogoutPageTest@38364841]" name="setup" is-config="true" duration-ms="6760" started-at="2021-11-22T20:07:53 IST" finished-at="2021-11-22T20:08:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="buttonvalidationTest()[pri:2, instance:com.opencart.testcases.LogoutPageTest@38364841]" name="buttonvalidationTest" duration-ms="28" started-at="2021-11-22T10:10:43 IST" finished-at="2021-11-22T10:10:43 IST">
+        <test-method status="PASS" signature="buttonvalidationTest()[pri:2, instance:com.opencart.testcases.LogoutPageTest@38364841]" name="buttonvalidationTest" duration-ms="27" started-at="2021-11-22T20:08:00 IST" finished-at="2021-11-22T20:08:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- buttonvalidationTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.LogoutPageTest@38364841]" name="teardown" is-config="true" duration-ms="1123" started-at="2021-11-22T10:10:43 IST" finished-at="2021-11-22T10:10:44 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.LogoutPageTest@38364841]" name="teardown" is-config="true" duration-ms="1100" started-at="2021-11-22T20:08:00 IST" finished-at="2021-11-22T20:08:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.opencart.testcases.LogoutPageTest@38364841]" name="setup" is-config="true" duration-ms="6772" started-at="2021-11-22T10:10:44 IST" finished-at="2021-11-22T10:10:51 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.opencart.testcases.LogoutPageTest@38364841]" name="setup" is-config="true" duration-ms="6577" started-at="2021-11-22T20:08:01 IST" finished-at="2021-11-22T20:08:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="continuebuttonclickTest()[pri:3, instance:com.opencart.testcases.LogoutPageTest@38364841]" name="continuebuttonclickTest" duration-ms="1" started-at="2021-11-22T10:10:51 IST" finished-at="2021-11-22T10:10:51 IST">
+        <test-method status="PASS" signature="continuebuttonclickTest()[pri:3, instance:com.opencart.testcases.LogoutPageTest@38364841]" name="continuebuttonclickTest" duration-ms="27" started-at="2021-11-22T20:08:08 IST" finished-at="2021-11-22T20:08:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- continuebuttonclickTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.LogoutPageTest@38364841]" name="teardown" is-config="true" duration-ms="1153" started-at="2021-11-22T10:10:51 IST" finished-at="2021-11-22T10:10:52 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.LogoutPageTest@38364841]" name="teardown" is-config="true" duration-ms="1114" started-at="2021-11-22T20:08:08 IST" finished-at="2021-11-22T20:08:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.opencart.testcases.LogoutPageTest -->
       <class name="com.opencart.testcases.WishListPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.opencart.testcases.WishListPageTest@146044d7]" name="setup" is-config="true" duration-ms="6740" started-at="2021-11-22T10:10:52 IST" finished-at="2021-11-22T10:10:58 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.opencart.testcases.WishListPageTest@146044d7]" name="setup" is-config="true" duration-ms="6655" started-at="2021-11-22T20:08:09 IST" finished-at="2021-11-22T20:08:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="wishlistPageTitleTest()[pri:1, instance:com.opencart.testcases.WishListPageTest@146044d7]" name="wishlistPageTitleTest" duration-ms="4" started-at="2021-11-22T10:10:58 IST" finished-at="2021-11-22T10:10:58 IST">
+        <test-method status="PASS" signature="wishlistPageTitleTest()[pri:1, instance:com.opencart.testcases.WishListPageTest@146044d7]" name="wishlistPageTitleTest" duration-ms="6" started-at="2021-11-22T20:08:16 IST" finished-at="2021-11-22T20:08:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wishlistPageTitleTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.WishListPageTest@146044d7]" name="teardown" is-config="true" duration-ms="1160" started-at="2021-11-22T10:10:58 IST" finished-at="2021-11-22T10:11:00 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.WishListPageTest@146044d7]" name="teardown" is-config="true" duration-ms="1135" started-at="2021-11-22T20:08:16 IST" finished-at="2021-11-22T20:08:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.opencart.testcases.WishListPageTest@146044d7]" name="setup" is-config="true" duration-ms="6433" started-at="2021-11-22T10:11:00 IST" finished-at="2021-11-22T10:11:06 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.opencart.testcases.WishListPageTest@146044d7]" name="setup" is-config="true" duration-ms="6483" started-at="2021-11-22T20:08:17 IST" finished-at="2021-11-22T20:08:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="emptyHeadingValidationTest()[pri:2, instance:com.opencart.testcases.WishListPageTest@146044d7]" name="emptyHeadingValidationTest" duration-ms="28" started-at="2021-11-22T10:11:06 IST" finished-at="2021-11-22T10:11:06 IST">
+        <test-method status="PASS" signature="emptyHeadingValidationTest()[pri:2, instance:com.opencart.testcases.WishListPageTest@146044d7]" name="emptyHeadingValidationTest" duration-ms="28" started-at="2021-11-22T20:08:23 IST" finished-at="2021-11-22T20:08:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyHeadingValidationTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.WishListPageTest@146044d7]" name="teardown" is-config="true" duration-ms="1161" started-at="2021-11-22T10:11:06 IST" finished-at="2021-11-22T10:11:07 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.WishListPageTest@146044d7]" name="teardown" is-config="true" duration-ms="1145" started-at="2021-11-22T20:08:23 IST" finished-at="2021-11-22T20:08:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.opencart.testcases.WishListPageTest@146044d7]" name="setup" is-config="true" duration-ms="6891" started-at="2021-11-22T10:11:07 IST" finished-at="2021-11-22T10:11:14 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.opencart.testcases.WishListPageTest@146044d7]" name="setup" is-config="true" duration-ms="6598" started-at="2021-11-22T20:08:24 IST" finished-at="2021-11-22T20:08:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="continueButtonDisplayTest()[pri:3, instance:com.opencart.testcases.WishListPageTest@146044d7]" name="continueButtonDisplayTest" duration-ms="28" started-at="2021-11-22T10:11:14 IST" finished-at="2021-11-22T10:11:14 IST">
+        <test-method status="PASS" signature="continueButtonDisplayTest()[pri:3, instance:com.opencart.testcases.WishListPageTest@146044d7]" name="continueButtonDisplayTest" duration-ms="52" started-at="2021-11-22T20:08:31 IST" finished-at="2021-11-22T20:08:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- continueButtonDisplayTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.WishListPageTest@146044d7]" name="teardown" is-config="true" duration-ms="1217" started-at="2021-11-22T10:11:14 IST" finished-at="2021-11-22T10:11:15 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.WishListPageTest@146044d7]" name="teardown" is-config="true" duration-ms="1231" started-at="2021-11-22T20:08:31 IST" finished-at="2021-11-22T20:08:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.opencart.testcases.WishListPageTest -->
       <class name="com.opencart.testcases.ForgotPasswordTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.opencart.testcases.ForgotPasswordTest@6b0c2d26]" name="setup" is-config="true" duration-ms="4771" started-at="2021-11-22T10:08:22 IST" finished-at="2021-11-22T10:08:27 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.opencart.testcases.ForgotPasswordTest@6b0c2d26]" name="setup" is-config="true" duration-ms="5338" started-at="2021-11-22T20:05:21 IST" finished-at="2021-11-22T20:05:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateTitle()[pri:1, instance:com.opencart.testcases.ForgotPasswordTest@6b0c2d26]" name="validateTitle" duration-ms="5" started-at="2021-11-22T10:08:27 IST" finished-at="2021-11-22T10:08:27 IST">
+        <test-method status="PASS" signature="validateTitle()[pri:1, instance:com.opencart.testcases.ForgotPasswordTest@6b0c2d26]" name="validateTitle" duration-ms="7" started-at="2021-11-22T20:05:26 IST" finished-at="2021-11-22T20:05:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTitle -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.ForgotPasswordTest@6b0c2d26]" name="teardown" is-config="true" duration-ms="1106" started-at="2021-11-22T10:08:27 IST" finished-at="2021-11-22T10:08:28 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.ForgotPasswordTest@6b0c2d26]" name="teardown" is-config="true" duration-ms="1265" started-at="2021-11-22T20:05:26 IST" finished-at="2021-11-22T20:05:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.opencart.testcases.ForgotPasswordTest@6b0c2d26]" name="setup" is-config="true" duration-ms="4797" started-at="2021-11-22T10:08:28 IST" finished-at="2021-11-22T10:08:33 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.opencart.testcases.ForgotPasswordTest@6b0c2d26]" name="setup" is-config="true" duration-ms="5268" started-at="2021-11-22T20:05:27 IST" finished-at="2021-11-22T20:05:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateInputBox()[pri:2, instance:com.opencart.testcases.ForgotPasswordTest@6b0c2d26]" name="validateInputBox" duration-ms="29" started-at="2021-11-22T10:08:33 IST" finished-at="2021-11-22T10:08:33 IST">
+        <test-method status="PASS" signature="validateInputBox()[pri:2, instance:com.opencart.testcases.ForgotPasswordTest@6b0c2d26]" name="validateInputBox" duration-ms="27" started-at="2021-11-22T20:05:33 IST" finished-at="2021-11-22T20:05:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateInputBox -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.ForgotPasswordTest@6b0c2d26]" name="teardown" is-config="true" duration-ms="1239" started-at="2021-11-22T10:08:33 IST" finished-at="2021-11-22T10:08:34 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.ForgotPasswordTest@6b0c2d26]" name="teardown" is-config="true" duration-ms="1192" started-at="2021-11-22T20:05:33 IST" finished-at="2021-11-22T20:05:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.opencart.testcases.ForgotPasswordTest@6b0c2d26]" name="setup" is-config="true" duration-ms="5118" started-at="2021-11-22T10:08:34 IST" finished-at="2021-11-22T10:08:39 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.opencart.testcases.ForgotPasswordTest@6b0c2d26]" name="setup" is-config="true" duration-ms="5159" started-at="2021-11-22T20:05:34 IST" finished-at="2021-11-22T20:05:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateSubmitButton()[pri:3, instance:com.opencart.testcases.ForgotPasswordTest@6b0c2d26]" name="validateSubmitButton" duration-ms="27" started-at="2021-11-22T10:08:39 IST" finished-at="2021-11-22T10:08:39 IST">
+        <test-method status="PASS" signature="validateSubmitButton()[pri:3, instance:com.opencart.testcases.ForgotPasswordTest@6b0c2d26]" name="validateSubmitButton" duration-ms="25" started-at="2021-11-22T20:05:39 IST" finished-at="2021-11-22T20:05:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSubmitButton -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.ForgotPasswordTest@6b0c2d26]" name="teardown" is-config="true" duration-ms="1244" started-at="2021-11-22T10:08:39 IST" finished-at="2021-11-22T10:08:40 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.ForgotPasswordTest@6b0c2d26]" name="teardown" is-config="true" duration-ms="1159" started-at="2021-11-22T20:05:39 IST" finished-at="2021-11-22T20:05:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.opencart.testcases.ForgotPasswordTest@6b0c2d26]" name="setup" is-config="true" duration-ms="4617" started-at="2021-11-22T10:08:40 IST" finished-at="2021-11-22T10:08:45 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.opencart.testcases.ForgotPasswordTest@6b0c2d26]" name="setup" is-config="true" duration-ms="5118" started-at="2021-11-22T20:05:40 IST" finished-at="2021-11-22T20:05:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateBackButtonOpration()[pri:4, instance:com.opencart.testcases.ForgotPasswordTest@6b0c2d26]" name="validateBackButtonOpration" duration-ms="598" started-at="2021-11-22T10:08:45 IST" finished-at="2021-11-22T10:08:46 IST">
+        <test-method status="PASS" signature="validateBackButtonOpration()[pri:4, instance:com.opencart.testcases.ForgotPasswordTest@6b0c2d26]" name="validateBackButtonOpration" duration-ms="811" started-at="2021-11-22T20:05:45 IST" finished-at="2021-11-22T20:05:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateBackButtonOpration -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.ForgotPasswordTest@6b0c2d26]" name="teardown" is-config="true" duration-ms="1251" started-at="2021-11-22T10:08:46 IST" finished-at="2021-11-22T10:08:47 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.ForgotPasswordTest@6b0c2d26]" name="teardown" is-config="true" duration-ms="1159" started-at="2021-11-22T20:05:46 IST" finished-at="2021-11-22T20:05:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.opencart.testcases.ForgotPasswordTest -->
       <class name="com.opencart.testcases.IndexPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="setUp" is-config="true" duration-ms="5930" started-at="2021-11-22T10:07:45 IST" finished-at="2021-11-22T10:07:51 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="setUp" is-config="true" duration-ms="8324" started-at="2021-11-22T20:04:39 IST" finished-at="2021-11-22T20:04:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="LogoTextTest()[pri:1, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="LogoTextTest" duration-ms="48" started-at="2021-11-22T10:07:51 IST" finished-at="2021-11-22T10:07:51 IST">
+        <test-method status="PASS" signature="LogoTextTest()[pri:1, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="LogoTextTest" duration-ms="46" started-at="2021-11-22T20:04:47 IST" finished-at="2021-11-22T20:04:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogoTextTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="teardown" is-config="true" duration-ms="1034" started-at="2021-11-22T10:07:51 IST" finished-at="2021-11-22T10:07:52 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="teardown" is-config="true" duration-ms="1049" started-at="2021-11-22T20:04:47 IST" finished-at="2021-11-22T20:04:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="setUp" is-config="true" duration-ms="3664" started-at="2021-11-22T10:07:52 IST" finished-at="2021-11-22T10:07:56 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="setUp" is-config="true" duration-ms="3877" started-at="2021-11-22T20:04:48 IST" finished-at="2021-11-22T20:04:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="titleTest()[pri:2, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="titleTest" duration-ms="5" started-at="2021-11-22T10:07:56 IST" finished-at="2021-11-22T10:07:56 IST">
+        <test-method status="PASS" signature="titleTest()[pri:2, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="titleTest" duration-ms="5" started-at="2021-11-22T20:04:52 IST" finished-at="2021-11-22T20:04:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titleTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="teardown" is-config="true" duration-ms="1054" started-at="2021-11-22T10:07:56 IST" finished-at="2021-11-22T10:07:57 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="teardown" is-config="true" duration-ms="1038" started-at="2021-11-22T20:04:52 IST" finished-at="2021-11-22T20:04:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="setUp" is-config="true" duration-ms="3752" started-at="2021-11-22T10:07:57 IST" finished-at="2021-11-22T10:08:01 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="setUp" is-config="true" duration-ms="3954" started-at="2021-11-22T20:04:53 IST" finished-at="2021-11-22T20:04:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="currencyDropDownTest()[pri:3, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="currencyDropDownTest" duration-ms="68" started-at="2021-11-22T10:08:01 IST" finished-at="2021-11-22T10:08:01 IST">
+        <test-method status="PASS" signature="currencyDropDownTest()[pri:3, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="currencyDropDownTest" duration-ms="79" started-at="2021-11-22T20:04:57 IST" finished-at="2021-11-22T20:04:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- currencyDropDownTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="teardown" is-config="true" duration-ms="1044" started-at="2021-11-22T10:08:01 IST" finished-at="2021-11-22T10:08:02 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="teardown" is-config="true" duration-ms="1158" started-at="2021-11-22T20:04:57 IST" finished-at="2021-11-22T20:04:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="setUp" is-config="true" duration-ms="3889" started-at="2021-11-22T10:08:02 IST" finished-at="2021-11-22T10:08:06 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="setUp" is-config="true" duration-ms="4339" started-at="2021-11-22T20:04:59 IST" finished-at="2021-11-22T20:05:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="dollerSymbolTest()[pri:4, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="dollerSymbolTest" duration-ms="53" started-at="2021-11-22T10:08:06 IST" finished-at="2021-11-22T10:08:06 IST">
+        <test-method status="PASS" signature="dollerSymbolTest()[pri:4, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="dollerSymbolTest" duration-ms="68" started-at="2021-11-22T20:05:03 IST" finished-at="2021-11-22T20:05:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dollerSymbolTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="teardown" is-config="true" duration-ms="1091" started-at="2021-11-22T10:08:06 IST" finished-at="2021-11-22T10:08:07 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="teardown" is-config="true" duration-ms="1199" started-at="2021-11-22T20:05:03 IST" finished-at="2021-11-22T20:05:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="setUp" is-config="true" duration-ms="3950" started-at="2021-11-22T10:08:07 IST" finished-at="2021-11-22T10:08:11 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="setUp" is-config="true" duration-ms="4259" started-at="2021-11-22T20:05:04 IST" finished-at="2021-11-22T20:05:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="dropDownLinkValidationTest()[pri:5, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="dropDownLinkValidationTest" duration-ms="69" started-at="2021-11-22T10:08:11 IST" finished-at="2021-11-22T10:08:11 IST">
+        <test-method status="PASS" signature="dropDownLinkValidationTest()[pri:5, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="dropDownLinkValidationTest" duration-ms="87" started-at="2021-11-22T20:05:08 IST" finished-at="2021-11-22T20:05:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dropDownLinkValidationTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="teardown" is-config="true" duration-ms="1149" started-at="2021-11-22T10:08:11 IST" finished-at="2021-11-22T10:08:12 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="teardown" is-config="true" duration-ms="1187" started-at="2021-11-22T20:05:09 IST" finished-at="2021-11-22T20:05:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="setUp" is-config="true" duration-ms="3902" started-at="2021-11-22T10:08:12 IST" finished-at="2021-11-22T10:08:16 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="setUp" is-config="true" duration-ms="4365" started-at="2021-11-22T20:05:10 IST" finished-at="2021-11-22T20:05:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageNavigationTest()[pri:6, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="loginPageNavigationTest" duration-ms="44" started-at="2021-11-22T10:08:16 IST" finished-at="2021-11-22T10:08:16 IST">
+        <test-method status="PASS" signature="loginPageNavigationTest()[pri:6, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="loginPageNavigationTest" duration-ms="52" started-at="2021-11-22T20:05:14 IST" finished-at="2021-11-22T20:05:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageNavigationTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="teardown" is-config="true" duration-ms="1101" started-at="2021-11-22T10:08:16 IST" finished-at="2021-11-22T10:08:17 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="teardown" is-config="true" duration-ms="1178" started-at="2021-11-22T20:05:14 IST" finished-at="2021-11-22T20:05:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="setUp" is-config="true" duration-ms="3807" started-at="2021-11-22T10:08:17 IST" finished-at="2021-11-22T10:08:21 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="setUp" is-config="true" duration-ms="4245" started-at="2021-11-22T20:05:15 IST" finished-at="2021-11-22T20:05:20 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="searchbarValidationTest()[pri:7, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="searchbarValidationTest" duration-ms="23" started-at="2021-11-22T10:08:21 IST" finished-at="2021-11-22T10:08:21 IST">
+        <test-method status="PASS" signature="searchbarValidationTest()[pri:7, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="searchbarValidationTest" duration-ms="26" started-at="2021-11-22T20:05:20 IST" finished-at="2021-11-22T20:05:20 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchbarValidationTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="teardown" is-config="true" duration-ms="1111" started-at="2021-11-22T10:08:21 IST" finished-at="2021-11-22T10:08:22 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.opencart.testcases.IndexPageTest@17776a8]" name="teardown" is-config="true" duration-ms="1178" started-at="2021-11-22T20:05:20 IST" finished-at="2021-11-22T20:05:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
