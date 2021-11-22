@@ -1,0 +1,17 @@
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+.settings/
+bin/
+temp
+.metadata
+.project
+*.tmp
+*.bak
+.localpath
+.classpath
+test-output/
+
+screenshots/
+exe_file/
+Usersajay_bhaveeclipse-workspaceOpenCartapplication.log
