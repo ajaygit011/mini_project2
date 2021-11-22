@@ -1,5 +1,7 @@
 package com.opencart.testcases;
 
+import org.apache.log4j.Logger;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -26,18 +28,41 @@ public class LoginPageTest extends BaseClass{
 		initalization();
 		index=new IndexPage();
 		login=index.getLoginPage();
+		log=Logger.getLogger("LoginPageTest");
+
 	}
 	
 	@Test(priority=1)
-	public void loginTest() throws InterruptedException
+	public void loginTestTest() 
 	{
-		String s1= property.getProperty("email");
-		String s2=property.getProperty("pass");
+		String s1= prop.getProperty("email");
+		String s2=prop.getProperty("pass");
 		homepage=login.loginFunction(s1, s2);
-		Thread.sleep(3000);
 		
+		log=Logger.getLogger("Login functionality of login page");
 		
 	}
+	
+	@Test(priority=3,dependsOnMethods= {"linkTextValidationTest"})
+	public void cssPropertyTestTest()
+	{
+		String cssval = login.placeHolderValidation();
+		Assert.assertEquals("E-Mail Address", cssval);
+		
+		
+		log.info("validation of placeholder property in login page");
+		
+		//testcase skipped 
+	}
+	
+	
+	@Test(priority=2)
+	public void linkTextValidationTest()
+	{
+		Assert.assertEquals("Forgotten Password", login.linkTextValidatiion());
+		//test case fail
+	}
+	
 	
 	@AfterMethod
 	public void teardown()

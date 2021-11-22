@@ -38,7 +38,7 @@ public class ForgotPasswordTest extends BaseClass{
 	{
 		String title = "Account Login";
 		Assert.assertEquals(title, fpass.getPageTitle(),"not matched");
-		log.info("title validation ");
+		log.info("title validation of ForgotPassword page");
 		
 	}
 	
@@ -46,21 +46,21 @@ public class ForgotPasswordTest extends BaseClass{
 	public void validateInputBox()
 	{
 		Assert.assertTrue(fpass.inputBoxDisplayed());
-		log.info("input box validation");
+		log.info("input box validation of Forgot Password page");
 	}
 	
 	@Test(priority=3)
 	public void validateSubmitButton()
 	{
 		Assert.assertTrue(fpass.sumbitButtonDisplayed());
-		log.info("submit button validation");
+		log.info("submit button validation of Forgot Password page");
 	}
 	
 	@Test(priority=4)
 	public void validateBackButtonOpration()
 	{
-		LoginPage loginpage = fpass.backButtonOpration();
-		log.info(loginpage);
+		 fpass.backButtonOpration();
+		log.info("back button validation");
 		
 	}
 	

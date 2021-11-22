@@ -3,6 +3,7 @@ package com.opencart.base;
 
 
 import java.io.FileInputStream;
+import java.time.Duration;
 import java.util.Properties;
 
 import org.apache.log4j.Logger;
@@ -14,17 +15,19 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class BaseClass {
 	
 	public static WebDriver driver;
-	public static Properties property;
+	public static Properties prop;
 	public static Logger log;
+	
 	
 	public BaseClass()
 	{
 		PropertyConfigurator.configure("Log4j.properties");
 		try
 		{
-			property = new Properties();
+			prop = new Properties();
+		//	String path = "C:\\Users\\ajay_bhave\\eclipse-workspace\\OpenCart\\src\\main\\java\\com\\opencart\\config\\config.properties";
 			FileInputStream fis = new FileInputStream("C:\\Users\\ajay_bhave\\eclipse-workspace\\OpenCart\\src\\main\\java\\com\\opencart\\config\\config.properties");
-			property.load(fis);
+			prop.load(fis);
 		}
 		
 		catch(Exception e)
@@ -34,19 +37,23 @@ public class BaseClass {
 		
 	}	
 		
+	
 		public static void initalization()
 		{
-			String browser = property.getProperty("browser");
-			
-			if(browser.equals("chrome"))
-			{
-				System.setProperty("webdriver.chrome.driver", "C:\\Users\\ajay_bhave\\eclipse-workspace\\Selenium_Project_practice\\resources\\chromedriver.exe");
-				driver = new ChromeDriver();
-			}
+		
+		String browser_name=prop.getProperty("web_browser");
+	
+		
+		if(browser_name.equals("chrome"))
+		{
+			System.setProperty("webdriver.chrome.driver","./exe_file/chromedriver.exe");
+			driver = new ChromeDriver();
+		}
+		
 			driver.manage().window().maximize();
 			driver.manage().deleteAllCookies();
-			driver.get(property.getProperty("url"));
-			
+			driver.get(prop.getProperty("url"));
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 			
 			
 		}

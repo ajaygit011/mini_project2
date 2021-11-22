@@ -1,6 +1,7 @@
 package com.opencart.pages;
 
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -10,19 +11,25 @@ public class LoginPage extends BaseClass {
 	
 	
 	@FindBy(xpath="//input[@id='input-email']")
-	WebElement emailField;
+	@CacheLookup
+	private WebElement emailField;
 	
 	@FindBy(xpath="//input[@id='input-password']")
-	WebElement passwordField;
+	@CacheLookup
+	private WebElement passwordField;
 	
 	@FindBy(xpath="//input[@value='Login']")
-	WebElement loginButton;
+	@CacheLookup
+	private WebElement loginButton;
 	
 	@FindBy(xpath="//img[@title='Your Store']")
-	WebElement logo;
+	@CacheLookup
+	private WebElement logo;
 	
 	@FindBy(xpath="//a[text()='Forgotten Password']//preceding-sibling::input")
-	WebElement forgotPassword;
+	@CacheLookup
+	private WebElement forgotPassword;
+	
 	public LoginPage()
 	{
 		PageFactory.initElements(driver,this);
@@ -47,7 +54,15 @@ public class LoginPage extends BaseClass {
 		return new ForgotPassword();
 	}
 	
+	public String placeHolderValidation()
+	{
+		return emailField.getAttribute("placeholder");
+	}
 	
+	public String linkTextValidatiion()
+	{
+		return	forgotPassword.getText();
+	}
 		
 	
 	

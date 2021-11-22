@@ -3,18 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.opencart.testcases.IndexPageTest">
+      <class name="com.opencart.testcases.RegistrationPageTest">
         <methods>
-          <include name="dropDownLinkValidation"/>
+          <include name="registeruservalidation"/>
+          <include name="setup"/>
           <include name="teardown"/>
-          <include name="loginPageNavigation"/>
-          <include name="LogoTest"/>
-          <include name="doller"/>
-          <include name="setUp"/>
-          <include name="titleTest"/>
-          <include name="currencyDropDown"/>
         </methods>
-      </class> <!-- com.opencart.testcases.IndexPageTest -->
+      </class> <!-- com.opencart.testcases.RegistrationPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

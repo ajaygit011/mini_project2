@@ -1,27 +1,36 @@
 package com.opencart.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.opencart.base.*;
+import com.opencart.base.BaseClass;
 public class IndexPage extends BaseClass {
 	
 	@FindBy(xpath="//img[@title='Your Store']")
-	
-	WebElement titleimg;
+	@CacheLookup
+	private WebElement titleimg;
 	
 	@FindBy(xpath="//button[@class='btn btn-link dropdown-toggle']")
-	WebElement currencyElement;
+	@CacheLookup
+	private WebElement currencyElement;
 	
 	@FindBy(xpath="//a[@title='My Account']")
-	WebElement dropdownLInk;
+	@CacheLookup
+	private WebElement dropdownLInk;
 	
-	@FindBy(xpath="//ul[@class='dropdown-menu dropdown-menu-right']//a[text()='Login']")
-	WebElement loginLink;
+	@FindBy(xpath="//a[text()='Login']")
+	@CacheLookup
+	private WebElement loginLink;
 	
-	@FindBy(xpath="//ul[@class='dropdown-menu dropdown-menu-right']//a[text()='Register']")
-	WebElement Register;
+	@FindBy(xpath="//a[text()='Register']")
+	@CacheLookup
+	private WebElement Register;
+	
+	@FindBy(xpath="//input[@name='search']")
+	@CacheLookup
+	private WebElement searchbutton;
 	
 	public IndexPage()
 	{
@@ -67,12 +76,23 @@ public class IndexPage extends BaseClass {
 		return false;
 		
 	}
-	
+
+	public boolean searchbar()
+	{
+		return searchbutton.isDisplayed();
+	}
 	public LoginPage getLoginPage()
 	{
 		dropdownLInk.click();
 		loginLink.click();
 		return new LoginPage();
 
+	}
+	
+	public RegistrationPage getRegistrationPage()
+	{
+		dropdownLInk.click();
+		Register.click();
+		return new RegistrationPage();
 	}
 }

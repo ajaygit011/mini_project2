@@ -27,52 +27,59 @@ public class IndexPageTest	extends BaseClass {
 	}
 	
 	
-			@Test(priority=1)
-			public void LogoTest() {
+	@Test(priority=1)
+	public void LogoTextTest() 
+	{
+		Assert.assertTrue(index.indexPageTitleDisplayed());
+		log.info("index page validation test case");
+	}
 			
-		
-				Assert.assertTrue(index.indexPageTitleDisplayed());
-				log.info("test case-2");
-			}
+	@Test(priority=2)
+	public void titleTest()
+	{
+		Assert.assertEquals("Your Store", index.indexPageTitleName());
+		log.info("index page title validation ");
+	}
 			
-			@Test(priority=2)
-			public void titleTest()
-			{
-				Assert.assertEquals("Your Store", index.indexPageTitleName());
+	@Test(priority=3)
+	public void currencyDropDownTest()
+	{
 				
-			log.info("test case -3");
-			}
+		Assert.assertEquals(index.currencyDropDownisDisplayed(), true);
+		log.info("index page dropdown validation");
+	}
 			
-			@Test(priority=3)
-			public void currencyDropDown()
-			{
-				
-				Assert.assertEquals(index.currencyDropDownisDisplayed(), true);
-				
-				log.info("test case -4");
-			}
+	@Test(priority=4)
+	public void dollerSymbolTest()
+	{
+		String s1=index.currncyDoller();
+		Assert.assertEquals("€ Euro", s1);
+		log.info("index page currency dropdown validation");
+	}
 			
-			@Test(priority=4)
-			public void doller()
-			{
+	@Test(priority=5)
+	public void dropDownLinkValidationTest()
+	{
 				
-				log.info("test case -5");
-			}
-			@Test(priority=5)
+		Assert.assertTrue(index.currencyDropDownisDisplayed());
+		log.info("index page currency dropdown validation ");
+	}
 			
-			public void dropDownLinkValidation()
-			{
-				
-				Assert.assertTrue(index.currencyDropDownisDisplayed());
-				log.info("test case -6");
-			}
+	@Test(priority=6)
+	public void loginPageNavigationTest()
+	{	
+		Assert.assertTrue(index.dropdown());
+		log.info("index page navigation to login page validation");
+	}
 			
-			@Test(priority=6)
-			public void loginPageNavigation()
-			{
-				
-				log.info("test case -7");
-			}
+	@Test(priority=7)
+	public void searchbarValidationTest()
+	{
+		Assert.assertTrue(index.searchbar());
+		log.info("search - bar validation ");
+	}
+			
+			
 			
 		@AfterMethod
 		public void teardown()
